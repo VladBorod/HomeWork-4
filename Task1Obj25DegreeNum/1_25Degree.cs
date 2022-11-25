@@ -37,6 +37,9 @@ int Exponentiation(int num1, int num2)
     }
         return numberDegree;
 }
-
-Console.WriteLine($"{number}, {exponentNumber} -> {numberAnswer}");
-
+if (0 < exponentNumber)
+{
+    Console.WriteLine($"{number}, {exponentNumber} -> {numberAnswer}");
+}
+else 
+    Console.WriteLine($"Введите натуральное число!");
